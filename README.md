@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  regex.ao é uma coleção de expressões regulares mais comuns e que podemos querer implementar durante o desenvolvimento das nossas aplicações. Agora com esse repositório é só procurar e colar no seu projeto.
+  <strong>regex.ao</strong> é uma coleção de expressões regulares mais comuns e que podemos querer implementar durante o desenvolvimento das nossas aplicações. Agora com esse repositório é só procurar e colar no seu projeto.
 </p>
 
 #### Remover acentos em `Strings`
