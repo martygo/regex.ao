@@ -9,7 +9,7 @@
 #### Remover acentos em `Strings`
 
 ```js
-function removerAccents(value) {
+function removeAccents(value) {
 	return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
@@ -20,7 +20,7 @@ function removerAccents(value) {
 #### Remover números em `Strings`
 
 ```js
-function removeNumbers(s) {
+function removeNumber(s) {
 	return s.replace(/[0-9]/g, "");
 }
 
