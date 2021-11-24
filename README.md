@@ -6,7 +6,15 @@
   <strong>regex.ao</strong> é uma coleção de expressões regulares mais comuns e que podemos querer implementar durante o desenvolvimento das nossas aplicações. Agora com esse repositório é só procurar e colar no seu projeto.
 </p>
 
-#### Remover acentos em `Strings`
+### Índice:
+
+- [Remover acentos em strings](#remover-acentos-em-strings)
+- [Remover números em strings](#remover-numeros-em-strings)
+- [Permitir somente números](#permitir-somente-numeros)
+- [Verificar se é uma URL](#verificar-se-e-uma-url')
+
+
+#### <a name="#remover-acentos-em-strings"></a> Remover acentos em `Strings`
 
 ```js
 function removeAccents(value) {
@@ -17,7 +25,7 @@ function removeAccents(value) {
 //output: Macas
 ```
 
-#### Remover números em `Strings`
+#### <a name="#remover-numeros-em-strings"></a> Remover números em `Strings`
 
 ```js
 function removeNumber(s) {
@@ -28,7 +36,7 @@ function removeNumber(s) {
 //output: george
 ```
 
-#### Permitir somente `Números`
+#### <a name="#permitir-somente-numeros"></a> Permitir somente `Números`
 
 ```js
 function allowNumber(value) {
@@ -39,7 +47,7 @@ function allowNumber(value) {
 //output: false     //output: true
 ```
 
-#### Verificar se é uma `URL`
+#### <a name="#verificar-se-e-uma-url"></a> Verificar se é uma `URL`
 
 ```js
 function isURL(value) {
