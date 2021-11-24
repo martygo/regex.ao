@@ -11,10 +11,9 @@
 - [Remover acentos em strings](#remover-acentos-em-strings)
 - [Remover números em strings](#remover-numeros-em-strings)
 - [Permitir somente números](#permitir-somente-numeros)
-- [Verificar se é uma URL](#verificar-se-e-uma-url')
+- [Verificar se é uma URL](#verificar-se-e-uma-url)
 
-
-#### <a name="#remover-acentos-em-strings"></a> Remover acentos em `Strings`
+#### <a id="remover-acentos-em-strings"></a> Remover acentos em `Strings`
 
 ```js
 function removeAccents(value) {
@@ -25,7 +24,7 @@ function removeAccents(value) {
 //output: Macas
 ```
 
-#### <a name="#remover-numeros-em-strings"></a> Remover números em `Strings`
+#### <a id="remover-numeros-em-strings"></a> Remover números em `Strings`
 
 ```js
 function removeNumber(s) {
@@ -36,7 +35,7 @@ function removeNumber(s) {
 //output: george
 ```
 
-#### <a name="#permitir-somente-numeros"></a> Permitir somente `Números`
+#### <a id="permitir-somente-numeros"></a> Permitir somente `Números`
 
 ```js
 function allowNumber(value) {
@@ -47,7 +46,7 @@ function allowNumber(value) {
 //output: false     //output: true
 ```
 
-#### <a name="#verificar-se-e-uma-url"></a> Verificar se é uma `URL`
+#### <div id="verificar-se-e-uma-url"></div> Verificar se é uma `URL`
 
 ```js
 function isURL(value) {
