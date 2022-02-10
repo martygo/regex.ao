@@ -12,6 +12,7 @@
 - [Remover números em strings](#remover-numeros-em-strings)
 - [Permitir somente números](#permitir-somente-numeros)
 - [Verificar se é uma URL](#verificar-se-e-uma-url)
+- [Validação de email](#validacao-email)
 
 #### <a id="remover-acentos-em-strings"></a> Remover acentos em `Strings`
 
@@ -58,6 +59,19 @@ function isURL(value) {
 
 //input: www.martins.com   //input: https:github.com/martygo
 //output: false     //output: true
+```
+
+#### <a id="validacao-email"></a> Verificar se um email é válido
+
+```js
+function emailValidator(email) {
+	const regex = ^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$
+
+	return regex.test(email);
+}
+
+//input: me#gmail.com // false
+//output: vodu@gmail.com // true
 ```
 
 ## Alguma sugestão?
