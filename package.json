@@ -1,0 +1,21 @@
+{
+  "name": "regex.ao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/martygo/regex.ao.git",
+  "author": "Martins Gouveia <gouveiamartins6@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc --project ./tsconfig.json",
+    "test": "jest -c ./jest.config.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
