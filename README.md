@@ -6,6 +6,12 @@
   <strong>regex.ao</strong> é uma coleção de expressões regulares mais comuns e que podemos querer implementar durante o desenvolvimento das nossas aplicações. Agora com esse repositório é só procurar e colar no seu projeto.
 </p>
 
+</br>
+
+<p align="center">
+	Você pode executar os test's dessas regex's clonando o projeto e instalando as depedências, e depois rodar simplesmente: <i>yarn test</i>
+</p>
+
 ### Índice:
 
 - [Remover acentos em strings](#remover-acentos-em-strings)
@@ -65,7 +71,8 @@ function isURL(value) {
 
 ```js
 function emailValidator(email) {
-	const regex = /^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/
+	const regex =
+		/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/;
 
 	return regex.test(email);
 }
