@@ -31,6 +31,15 @@ function removeAccents(value) {
 //output: Macas
 ```
 
+```js
+const hyphensRemoved = (value) => {
+	return value.replace(/-/g, ' ');
+}
+
+//input: 1-2-3-2
+//output: 1 2 3 2
+```
+
 #### <a id="remover-numeros-em-strings"></a> Remover números em `Strings`
 
 ```js
