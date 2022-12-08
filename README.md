@@ -15,6 +15,7 @@
 ### Índice:
 
 - [Remover acentos em strings](#remover-acentos-em-strings)
+- [Remover hífens em strings](#remover-hifens-em-strings)
 - [Remover números em strings](#remover-numeros-em-strings)
 - [Permitir somente números](#permitir-somente-numeros)
 - [Verificar se é uma URL](#verificar-se-e-uma-url)
@@ -30,6 +31,8 @@ function removeAccents(value) {
 //input: Maçãs
 //output: Macas
 ```
+
+#### <a id="remover-hifens-em-strings"></a> Remover hífens em `Strings`
 
 ```js
 const hyphensRemoved = (value) => {
