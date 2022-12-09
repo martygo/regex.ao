@@ -16,6 +16,7 @@
 
 - [Remover acentos em strings](#remover-acentos-em-strings)
 - [Remover hífens em strings](#remover-hifens-em-strings)
+- [Remover vogais em strings](#remover-vogais-em-strings)
 - [Remover números em strings](#remover-numeros-em-strings)
 - [Permitir somente números](#permitir-somente-numeros)
 - [Verificar se é uma URL](#verificar-se-e-uma-url)
@@ -41,6 +42,17 @@ const hyphensRemoved = (value) => {
 
 //input: 1-2-3-2
 //output: 1 2 3 2
+```
+
+#### <a id="remover-vogais-em-strings"></a> Remover todas vogais em `Strings`
+
+```js
+const removeAllVowels = (value) => {
+	return value.replace(/[aeiou]/gi, '')
+}
+
+//input: daily tips
+//output: dly tps
 ```
 
 #### <a id="remover-numeros-em-strings"></a> Remover números em `Strings`
